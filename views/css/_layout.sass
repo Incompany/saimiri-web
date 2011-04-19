@@ -1,0 +1,18 @@
+@import 960/grid
+$ninesixty-columns: 16
+.first
+	+alpha
+.last
+	+omega
+
+.layout
+	margin: 10px 0px 10px 0px
+	+clearfix
+	.col2
+		+grid(8)
+	.col3
+		+grid(5)
+	.col3.extra
+		+grid(6)
+	.col4
+		+grid(4)

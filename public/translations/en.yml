@@ -1,0 +1,35 @@
+layout:
+  nav1:
+  nav2:
+  nav3:
+  nav4:
+  nav5:
+  feature1:
+    title: why
+    text: !!textile
+      ddsfdfasd
+      
+      dsfdsafdf as
+      
+      sadfdsafdasfsd
+      
+  feature2:
+    title: when
+    text: !!textile
+      dsfdsad dsf
+      
+      fdsfdsaf adsf
+      
+      dsfa f
+  feature3:
+    title: where
+    text: !!textile
+      dsdsaf dfda fdafdsa 
+      dsfds ds fdfsd fasdf
+      ds fdsafdfdasfds fdsa
+    
+
+
+
+ 
+

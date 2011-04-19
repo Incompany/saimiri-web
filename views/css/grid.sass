@@ -1,0 +1,88 @@
+@import base
+ 
+$ninesixty-columns: 16
+
+.wrapper
+	+grid-container
+	+clearfix
+
+#headerWrapper
+	#top
+		background-color : $greenDarker
+		a
+			color: #fff
+			text-decoration: none
+			font-size: 11px
+		#type
+			color: #fff
+			+grid(8)
+			padding: 5px 0px 5px 0px
+		#language
+			+grid(8)
+			text-align: right
+			padding: 5px 0px 5px 0px
+				
+	#header
+		margin-top: 20px 
+		#logo 
+			+grid(8)
+		#slogan
+			+grid(8)
+			img
+				margin-left: 100px
+				margin-top: 25px
+				#nav
+
+#navWrapper
+	+linear-gradient(color-stops(#74B54A, #236923))
+
+	#nav
+		li
+			+grid-unit-base 
+			padding-top: 8px
+			padding-bottom: 8px
+			+alpha
+			+omega
+			a
+				font-size: 14px
+				color: #fff
+				padding: 10px 7px 8px 7px
+				margin: 0px 5px 0px 5px
+				display: block
+				text-decoration: none
+				width: 120px
+				text-align: center
+				border-right: 1px solid #fff
+				font-family: 'Josefin Sans',Verdana
+			a.large
+				width: 180px
+
+#contentWrapper
+	background-color: rgba(255,255,255,0.3)
+	#content
+		min-height : 500px
+
+#preFooterWrapper
+	background-color : #efefef
+	color: #fff
+	min-height: 100px
+
+
+#footerWrapper
+	background-color : $green
+	color: #fff
+	min-height: 100px
+	#footer
+		padding-bottom: 20px
+		h1
+			color: #fff
+			font-size: 90px
+			margin-top: 40px
+
+		h2
+			font-family: 'Josefin Sans',Verdana
+			color: $greenDarker
+			font-size: 22px
+			margin: 15px
+			margin-bottom: 5px
+		
