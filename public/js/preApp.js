@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $(":text").labelify();
-$(":textarea").labelify();
+$('textarea').labelify();
 
 });
 
