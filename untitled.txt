@@ -1,0 +1,19 @@
+1.Para Bajar proyecto:
+
+git clone git@github.com:Incompany/saimiri-web.git
+
+Este ultimo se toma desde github.com
+
+
+
+El grid.css se encuentra en varias carpetas, public, sass y en views, confusion del orden de css's
+
+
+
+
+
+
+
+
+
+

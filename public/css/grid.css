@@ -470,7 +470,7 @@ input.text:focus, input.title:focus, input[type=email]:focus, input[type=text]:f
   margin: 0px 5px 0px 5px;
   display: block;
   text-decoration: none;
-  width: 120px;
+  width: 100px;
   text-align: center;
   border-right: 1px solid white;
   font-family: "Josefin Sans", Verdana;
