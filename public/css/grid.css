@@ -145,15 +145,15 @@ input.text, input.title, input[type=email], input[type=text], input[type=passwor
 }
 /* line 49, ../../views/css/_forms.sass */
 input.text:focus, input.title:focus, input[type=email]:focus, input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus {
-  border: 2px solid white;
+  border: 2px solid black;
 }
 
 /* line 1, ../../views/css/_styles.sass */
 .sectionHeader {
   padding-top: 8px;
   padding-bottom: 8px;
-  border-bottom: 2px white solid;
-  border-top: 2px white solid;
+  border-bottom: 2px black solid;
+  border-top: 2px black solid;
 }
 
 /* line 11, ../../views/css/_styles.sass */
@@ -174,7 +174,7 @@ input.text:focus, input.title:focus, input[type=email]:focus, input[type=text]:f
 /* line 20, ../../views/css/_styles.sass */
 .homeTitle h2 {
   font-family: "Josefin Sans", Verdana;
-  color: white;
+  color: black;
   font-size: 22px;
   margin: 15px;
   margin-bottom: 5px;
@@ -222,7 +222,7 @@ input.text:focus, input.title:focus, input[type=email]:focus, input[type=text]:f
 /* line 55, ../../views/css/_styles.sass */
 .featureCol li {
   font-size: 11px;
-  color: white;
+  color: black;
 }
 
 /* line 59, ../../views/css/_styles.sass */
@@ -243,21 +243,21 @@ input.text:focus, input.title:focus, input[type=email]:focus, input[type=text]:f
 }
 /* line 66, ../../views/css/_styles.sass */
 .infoCol .inner h3 {
-  color: white;
+  color: black;
   font-size: 30px;
   padding: 12px;
 }
 /* line 71, ../../views/css/_styles.sass */
 .infoCol .inner ul li {
   margin: 10px;
-  color: white;
+  color: black;
   display: block;
   overflow: hidden;
   *zoom: 1;
 }
 /* line 76, ../../views/css/_styles.sass */
 .infoCol .inner ul li h4 {
-  color: white;
+  color: black;
   font-size: 15px;
 }
 /* line 79, ../../views/css/_styles.sass */
@@ -296,7 +296,7 @@ input.text:focus, input.title:focus, input[type=email]:focus, input[type=text]:f
 /* line 100, ../../views/css/_styles.sass */
 .scienceCol li {
   font-size: 11px;
-  color: white;
+  color: black;
 }
 
 /* line 104, ../../views/css/_styles.sass */
@@ -397,7 +397,7 @@ input.text:focus, input.title:focus, input[type=email]:focus, input[type=text]:f
 
 /* line 10, ../../views/css/grid.sass */
 #headerWrapper #top {
-  background-color: white;
+  background-color: black;
 }
 /* line 12, ../../views/css/grid.sass */
 #headerWrapper #top a {
@@ -523,7 +523,7 @@ input.text:focus, input.title:focus, input[type=email]:focus, input[type=text]:f
 /* line 82, ../../views/css/grid.sass */
 #footerWrapper #footer h2 {
   font-family: "Josefin Sans", Verdana;
-  color: white;
+  color: black;
   font-size: 22px;
   margin: 15px;
   margin-bottom: 5px;
